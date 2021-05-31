@@ -35,7 +35,7 @@ function App() {
     .catch((error) => {
       var errorCode = error.code;
       var errorMessage = error.message;
-      console.log("Error")
+      console.log(errorCode + ": " + errorMessage)
     })
   }
 
