@@ -1,45 +1,40 @@
-[debug] [2021-05-31T20:46:06.426Z] ----------------------------------------------------------------------
-[debug] [2021-05-31T20:46:06.428Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Blake\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
-[debug] [2021-05-31T20:46:06.429Z] CLI Version:   9.11.0
-[debug] [2021-05-31T20:46:06.429Z] Platform:      win32
-[debug] [2021-05-31T20:46:06.429Z] Node Version:  v14.16.0
-[debug] [2021-05-31T20:46:06.430Z] Time:          Mon May 31 2021 16:46:06 GMT-0400 (Eastern Daylight Time)
-[debug] [2021-05-31T20:46:06.430Z] ----------------------------------------------------------------------
+[debug] [2021-05-31T22:03:23.244Z] ----------------------------------------------------------------------
+[debug] [2021-05-31T22:03:23.246Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Blake\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2021-05-31T22:03:23.247Z] CLI Version:   9.11.0
+[debug] [2021-05-31T22:03:23.247Z] Platform:      win32
+[debug] [2021-05-31T22:03:23.247Z] Node Version:  v14.16.0
+[debug] [2021-05-31T22:03:23.248Z] Time:          Mon May 31 2021 18:03:23 GMT-0400 (Eastern Daylight Time)
+[debug] [2021-05-31T22:03:23.248Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2021-05-31T20:46:06.438Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2021-05-31T20:46:06.438Z] > authorizing via signed-in user (blake@academiki.com)
+[debug] [2021-05-31T22:03:23.256Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-05-31T22:03:23.256Z] > authorizing via signed-in user (blake@academiki.com)
 [info] i  emulators: Starting emulators: auth, hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: auth, hosting"}}
-[debug] [2021-05-31T20:46:06.462Z] [hub] writing locator at C:\Users\Blake\AppData\Local\Temp\hub-todolist-a9da8.json
-[debug] [2021-05-31T20:46:08.958Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/todolist-a9da8/sites 
-[debug] [2021-05-31T20:46:09.384Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/todolist-a9da8/sites 200
-[debug] [2021-05-31T20:46:09.384Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/todolist-a9da8/sites {"sites":[{"name":"projects/1062884920911/sites/todolist-a9da8","defaultUrl":"https://todolist-a9da8.web.app","type":"DEFAULT_SITE"}]}
-[debug] [2021-05-31T20:46:09.384Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/todolist-a9da8/webApps/-/config [none]
-[debug] [2021-05-31T20:46:09.880Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/todolist-a9da8/webApps/-/config 200
-[debug] [2021-05-31T20:46:09.880Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/todolist-a9da8/webApps/-/config {"projectId":"todolist-a9da8","appId":"1:1062884920911:web:5bdb903e6ec2ee1bd2a43a","storageBucket":"todolist-a9da8.appspot.com","locationId":"us-central","apiKey":"AIzaSyCPA0RTcpqqbP5fGRxNFM4qijUEzpvWhrw","authDomain":"todolist-a9da8.firebaseapp.com","messagingSenderId":"1062884920911","measurementId":"G-9T1X7W0FTD"}
+[debug] [2021-05-31T22:03:23.280Z] [hub] writing locator at C:\Users\Blake\AppData\Local\Temp\hub-todolist-a9da8.json
+[debug] [2021-05-31T22:03:25.765Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/todolist-a9da8/sites 
+[debug] [2021-05-31T22:03:26.190Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/todolist-a9da8/sites 200
+[debug] [2021-05-31T22:03:26.190Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/todolist-a9da8/sites {"sites":[{"name":"projects/1062884920911/sites/todolist-a9da8","defaultUrl":"https://todolist-a9da8.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2021-05-31T22:03:26.191Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/todolist-a9da8/webApps/-/config [none]
+[debug] [2021-05-31T22:03:26.677Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/todolist-a9da8/webApps/-/config 200
+[debug] [2021-05-31T22:03:26.677Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/todolist-a9da8/webApps/-/config {"projectId":"todolist-a9da8","appId":"1:1062884920911:web:5bdb903e6ec2ee1bd2a43a","storageBucket":"todolist-a9da8.appspot.com","locationId":"us-central","apiKey":"AIzaSyCPA0RTcpqqbP5fGRxNFM4qijUEzpvWhrw","authDomain":"todolist-a9da8.firebaseapp.com","messagingSenderId":"1062884920911","measurementId":"G-9T1X7W0FTD"}
 [info] i  hosting: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
 [info] +  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
-[info] i  ui: downloading ui-v1.5.0.zip... {"metadata":{"emulator":{"name":"ui"},"message":"downloading ui-v1.5.0.zip..."}}
-[debug] [2021-05-31T20:46:09.920Z] >>> [apiv2][query] GET https://storage.googleapis.com/firebase-preview-drop/emulator/ui-v1.5.0.zip 
-[debug] [2021-05-31T20:46:10.077Z] <<< [apiv2][status] GET https://storage.googleapis.com/firebase-preview-drop/emulator/ui-v1.5.0.zip 200
-[debug] [2021-05-31T20:46:10.077Z] <<< [apiv2][body] GET https://storage.googleapis.com/firebase-preview-drop/emulator/ui-v1.5.0.zip [stream]
-[info] i  ui: Removing outdated emulator files: ui-v1.4.2 {"metadata":{"emulator":{"name":"ui"},"message":"Removing outdated emulator files: ui-v1.4.2"}}
-[info] i  ui: Removing outdated emulator files: ui-v1.4.2.zip {"metadata":{"emulator":{"name":"ui"},"message":"Removing outdated emulator files: ui-v1.4.2.zip"}}
-[debug] [2021-05-31T20:46:12.007Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
-[debug] [2021-05-31T20:46:12.007Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
-[debug] [2021-05-31T20:46:12.007Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\Blake\\.cache\\firebase\\emulators\\ui-v1.5.0\\server.bundle.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\Blake\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.5.0\\\\server.bundle.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[warn] !  ui: Emulator UI unable to start on port 4000, starting on 4001 instead. {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI unable to start on port 4000, starting on 4001 instead."}}
+[debug] [2021-05-31T22:03:26.742Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2021-05-31T22:03:26.742Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2021-05-31T22:03:26.742Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\Blake\\.cache\\firebase\\emulators\\ui-v1.5.0\\server.bundle.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\Blake\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.5.0\\\\server.bundle.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
 [info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
-[debug] [2021-05-31T20:46:12.146Z] Web / API server started at http://localhost:4000
- {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at http://localhost:4000\n"}}
+[debug] [2021-05-31T22:03:26.871Z] Web / API server started at http://localhost:4001
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at http://localhost:4001\n"}}
 [info] 
 ┌─────────────────────────────────────────────────────────────┐
 │ ✔  All emulators ready! It is now safe to connect your app. │
-│ i  View Emulator UI at http://localhost:4000                │
+│ i  View Emulator UI at http://localhost:4001                │
 └─────────────────────────────────────────────────────────────┘
 
 ┌────────────────┬────────────────┬────────────────────────────┐
 │ Emulator       │ Host:Port      │ View in Emulator UI        │
 ├────────────────┼────────────────┼────────────────────────────┤
-│ Authentication │ localhost:9099 │ http://localhost:4000/auth │
+│ Authentication │ localhost:9099 │ http://localhost:4001/auth │
 ├────────────────┼────────────────┼────────────────────────────┤
 │ Hosting        │ localhost:5000 │ n/a                        │
 └────────────────┴────────────────┴────────────────────────────┘
@@ -48,3 +43,13 @@
 
 Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
  
+[info] i  hosting: 127.0.0.1 - - [31/May/2021:22:03:43 +0000] "GET / HTTP/1.1" 200 2161 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36 OPR/75.0.3969.279" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [31/May/2021:22:03:43 +0000] \"GET / HTTP/1.1\" 200 2161 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36 OPR/75.0.3969.279\""}}
+[info] i  hosting: 127.0.0.1 - - [31/May/2021:22:03:43 +0000] "GET /favicon.ico HTTP/1.1" 200 3870 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36 OPR/75.0.3969.279" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [31/May/2021:22:03:43 +0000] \"GET /favicon.ico HTTP/1.1\" 200 3870 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36 OPR/75.0.3969.279\""}}
+[info] i  hosting: 127.0.0.1 - - [31/May/2021:22:03:43 +0000] "GET / HTTP/1.1" 200 2161 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36 OPR/75.0.3969.279" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [31/May/2021:22:03:43 +0000] \"GET / HTTP/1.1\" 200 2161 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36 OPR/75.0.3969.279\""}}
+[info] i  hosting: 127.0.0.1 - - [31/May/2021:22:03:43 +0000] "GET /favicon.ico HTTP/1.1" 200 3870 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36 OPR/75.0.3969.279" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [31/May/2021:22:03:43 +0000] \"GET /favicon.ico HTTP/1.1\" 200 3870 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36 OPR/75.0.3969.279\""}}
+[info] i  hosting: 127.0.0.1 - - [31/May/2021:22:04:23 +0000] "GET / HTTP/1.1" 200 2161 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36 OPR/75.0.3969.279" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [31/May/2021:22:04:23 +0000] \"GET / HTTP/1.1\" 200 2161 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36 OPR/75.0.3969.279\""}}
+[info] i  hosting: 127.0.0.1 - - [31/May/2021:22:04:23 +0000] "GET /favicon.ico HTTP/1.1" 200 3870 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36 OPR/75.0.3969.279" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [31/May/2021:22:04:23 +0000] \"GET /favicon.ico HTTP/1.1\" 200 3870 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36 OPR/75.0.3969.279\""}}
+[info] i  hosting: 127.0.0.1 - - [31/May/2021:22:05:31 +0000] "GET / HTTP/1.1" 200 2161 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36 OPR/75.0.3969.279" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [31/May/2021:22:05:31 +0000] \"GET / HTTP/1.1\" 200 2161 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36 OPR/75.0.3969.279\""}}
+[info] i  hosting: 127.0.0.1 - - [31/May/2021:22:05:32 +0000] "GET /favicon.ico HTTP/1.1" 200 3870 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36 OPR/75.0.3969.279" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [31/May/2021:22:05:32 +0000] \"GET /favicon.ico HTTP/1.1\" 200 3870 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36 OPR/75.0.3969.279\""}}
+[info] i  hosting: 127.0.0.1 - - [31/May/2021:22:05:42 +0000] "GET / HTTP/1.1" 200 2161 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36 OPR/75.0.3969.279" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [31/May/2021:22:05:42 +0000] \"GET / HTTP/1.1\" 200 2161 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36 OPR/75.0.3969.279\""}}
+[info] i  hosting: 127.0.0.1 - - [31/May/2021:22:05:42 +0000] "GET /favicon.ico HTTP/1.1" 200 3870 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36 OPR/75.0.3969.279" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [31/May/2021:22:05:42 +0000] \"GET /favicon.ico HTTP/1.1\" 200 3870 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36 OPR/75.0.3969.279\""}}

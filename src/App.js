@@ -1,11 +1,12 @@
 import {Button,TextField,createMuiTheme,ThemeProvider,CssBaseline} from "@material-ui/core"
 import React from "react";
-import firebase from "firebase";
+import firebase from "firebase/app";
+import "firebase/auth"
 
 function App() {
   const emailInput = React.createRef()
   const passwordInput = React.createRef()
-  
+
   const firebaseConfig = {
     apiKey: "AIzaSyCPA0RTcpqqbP5fGRxNFM4qijUEzpvWhrw",
     authDomain: "todolist-a9da8.firebaseapp.com",
@@ -15,6 +16,7 @@ function App() {
     appId: "1:1062884920911:web:5bdb903e6ec2ee1bd2a43a",
     measurementId: "G-9T1X7W0FTD"
   };
+  firebase.initializeApp(firebaseConfig)
 
   const darkTheme = createMuiTheme({
     palette: {
